@@ -1,0 +1,79 @@
+.header_wrapper {
+  $border_color: var(--border-color);
+  .header_container {
+    padding: 10px 45px;
+    border-bottom: 1px solid $border_color;
+    // position: fixed;
+    // left: 0;
+    // right: 0;
+    // top: 0;
+    // background: var(--body-bg);
+    .main_header {
+      display: flex;
+      align-items: center;
+      .header_left {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+        .logo {
+          .logo_text {
+            font-size: var(--font-size-medium);
+          }
+        }
+      }
+      .header_right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 0 0 auto;
+        width: 83.33333333%;
+        .header_menu {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          .menu {
+            .menu_list {
+              list-style: none;
+              display: flex;
+              gap: var(--gutter);
+
+              .menu_item {
+                margin: 10px 14px;
+                transition: 0.3s;
+                color: var(--color-body);
+
+                .menu_link {
+                  font-size: var(--font-size-extra-small);
+                  line-height: var(--line-height-small);
+                  color: var(--color-body);
+                  text-decoration: none;
+                  font-weight: 600;
+                  text-transform: uppercase;
+                }
+
+                // Active Menu
+                &.active {
+                  a {
+                    color: var(--color-primary);
+                  }
+                }
+              }
+            }
+          }
+        }
+        .menu_btn {
+          position: relative;
+          transition: var(--transition);
+          color: var(--color-primary);
+          font-weight: var(--f-semi-bold);
+          margin-top: 3px;
+          //   Hover Effect For Menu Button
+          &:hover {
+            transition: var(--transition);
+            color: var(--color-white);
+            background: var(--gradient-red-hover);
+          }
+        }
+      }
+    }
+  }
+}

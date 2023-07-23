@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.white-version {
+  --color-primary: #664185;
+  --color-secondary: #f4f5f6;
+
+  --body-bg: #ecf0f3;
+
+  --color-body: #3c3e41;
+  --color-white: #fff;
+
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+
+  --gutter: 15px
+
+  --font-size-large: 32px;
+  --font-size-medium: 22px;
+  --font-size-small: 18px;
+  --font-size-extra-small: 13px;
+
+  --line-height-large: 1.8;
+  --line-height-medium: 1.7;
+  --line-height-small: 1.6;
+  --line-height-extra-small: 1.5;
+
+  --border-color: #dce1e4;
+  --color-heading: #1e2125;
+
+  // Box Style
+  --shadow-white: 5px 5px 15px #d1d9e6, -5px -5px 15px #fff;
+  --gradient-box: linear-gradient(145deg, #e2e8ec, #fff);
+
+  // Transition
+  --transition: 0.4s ease-in-out;
+
+  // Font Weight
+  --f-light: 300;
+  --f-regular: 400;
+  --f-medium: 500;
+  --f-semi-bold: 600;
+  --f-bold: 700;
+  --f-extra-bold: 800;
+  --f-black: 900;
+
+  // Hover Style
+  --gradient-red-hover: linear-gradient(145deg, #664185, #aa3bff9d);
+
+  // ---------------------
+
+  --font-size-b1: 18px;
+  --font-size-b2: 22px;
+  --font-size-b3: 14px;
+
+  --line-height-b1: 1.5;
+  --line-height-b2: 1.6;
+  --line-height-b3: 1.7;
+
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+
+  --h1: 70px;
+  --h2: 60px;
+  --h3: 50px;
+  --h4: 40px;
+  --h5: 30px;
+  --h6: 20px;
+}
+
+.dark-version {
+  --color-primary: #ff014f;
+  --color-secondary: #f4f5f6;
+
+  --body-bg: #212428;
+
+  --color-body: #3c3e41;
+
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+
+  --font-size-b1: 18px;
+  --font-size-b2: 22px;
+  --font-size-b3: 14px;
+
+  --line-height-b1: 1.5;
+  --line-height-b2: 1.6;
+  --line-height-b3: 1.7;
+
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+
+  --h1: 70px;
+  --h2: 60px;
+  --h3: 50px;
+  --h4: 40px;
+  --h5: 30px;
+  --h6: 20px;
+}

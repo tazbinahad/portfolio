@@ -1,0 +1,59 @@
+@use "../variables/variables.scss";
+@use "../global/reset.scss";
+html {
+  margin: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 0;
+  scroll-behavior: smooth;
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color-body);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-b1);
+    font-weight: var(--p-regular);
+    line-height: var(--line-height-b1);
+    background: var(--body-bg);
+
+    // Button Style
+    .btn {
+      position: relative;
+      z-index: 2;
+      border: 0;
+      border-radius: 6px;
+      background: var(--gradient-box);
+      box-shadow: var(--shadow-white);
+      padding: 12px 32px;
+      font-size: 14px;
+      line-height: normal;
+      font-weight: 500;
+      color: var(--color-body);
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    //highlight_text
+    .highlight_text {
+      color: var(--color-primary);
+    }
+
+    // Separator
+    .section_separator {
+      position: relative;
+      &::after {
+        position: absolute;
+        max-width: 1270px;
+        height: 1px;
+        background: #dce1e4;
+        content: "";
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+  }
+}
